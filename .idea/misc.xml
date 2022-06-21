@@ -6,6 +6,11 @@
         <entry key="..\:/Android Project/ExampleLearn/app/src/main/res/layout/activity_login_success.xml" value="0.25" />
         <entry key="..\:/Android Project/ExampleLearn/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Android Project/ExampleLearn/app/src/main/res/layout/activity_retrofit.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_base.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_base1.xml" value="0.10625" />
+        <entry key="app/src/main/res/layout/activity_base2.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_login_success.xml" value="0.10625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24320652173913043" />
       </map>
     </option>
   </component>

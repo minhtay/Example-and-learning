@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.example_learn">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -11,6 +12,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RemoveSplashScreenTheme">
+        <activity
+            android:name=".base_activity.Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".base_activity.Activity1"
+            android:exported="false" />
         <activity
             android:name=".retrofit.LoginSuccessActivity"
             android:exported="false" />
