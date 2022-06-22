@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Example-Learn</string>
+    <string name="todo">TODO</string>
+
+    <!--String for MVVM package-->
+    <!--MVVMActiviti-->
+    <string name="tv1">Welcome back</string>
+    <string name="tv2">Login to your account</string>
+    <string name="tv3">Forgot password ?</string>
+    <string name="tv4">Or sign in with</string>
+    <string name="edtEmail_hint">Email</string>
+    <string name="edtPassword_hint">Password</string>
+    <string name="btnLogin">Login</string>
+    <string name="tv5">Don\'t have an account?</string>
+    <string name="tv6">Sign up</string>
 </resources>

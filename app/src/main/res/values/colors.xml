@@ -11,4 +11,6 @@
     <color name="red">#FF0000</color>
     <color name="green">#87DD3C</color>
 
+    <color name="boder">#505050</color>
+
 </resources>

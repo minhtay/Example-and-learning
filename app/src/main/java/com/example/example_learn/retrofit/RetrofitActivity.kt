@@ -5,7 +5,9 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+/*
 import com.example.example_learn.databinding.ActivityRetrofitBinding
+*/
 import com.example.example_learn.retrofit.api.ClientResponse
 import com.example.example_learn.retrofit.api.UserResponse
 import com.example.example_learn.retrofit.model.LoginStatus
@@ -17,18 +19,20 @@ import kotlin.concurrent.timerTask
 
 
 class RetrofitActivity : AppCompatActivity() {
+/*
     private lateinit var binding: ActivityRetrofitBinding
+*/
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityRetrofitBinding.inflate(layoutInflater)
+       /* binding = ActivityRetrofitBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.Login.setOnClickListener { if (checkValid())login() }
-        binding.btnBack.setOnClickListener { finish() }
+        binding.btnBack.setOnClickListener { finish() }*/
 
     }
 
-    private fun checkValid():Boolean{
+    /*private fun checkValid():Boolean{
         val whiteSpace = ".*\\s.*"
         if (binding.edtEmail.text!!.isEmpty()){
             binding.tilEmail.error = "Username not entered"
@@ -81,7 +85,7 @@ class RetrofitActivity : AppCompatActivity() {
         }))
 
     }
-
+*/
     private fun loginSuccessActivity() {
         val intent = Intent(this,LoginSuccessActivity::class.java)
         startActivity(intent)

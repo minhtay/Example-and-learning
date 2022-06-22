@@ -11,6 +11,8 @@
         <entry key="app/src/main/res/layout/activity_base2.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_login_success.xml" value="0.10625" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.24320652173913043" />
+        <entry key="app/src/main/res/layout/activity_mvvmactivity.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/layout/activity_view.xml" value="0.18125" />
       </map>
     </option>
   </component>

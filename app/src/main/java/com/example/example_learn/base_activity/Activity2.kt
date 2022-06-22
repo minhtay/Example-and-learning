@@ -21,7 +21,7 @@ class Activity2 : BaseActivity(),View.OnClickListener {
 
 
     private fun updateUi() {
-        val tv = findViewById<TextView>(R.id.textView)
+        val tv = findViewById<TextView>(R.id.textView1)
         val layout = findViewById<ConstraintLayout>(R.id.baseActivity2)
         if (checkForInternet(applicationContext)){
             tv.text = "Good connection status"
