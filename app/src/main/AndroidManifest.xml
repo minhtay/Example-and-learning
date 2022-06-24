@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RemoveSplashScreenTheme">
         <activity
+            android:name=".set_flags.B_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".set_flags.A_Activity"
+            android:exported="false" />
+        <activity
             android:name=".retrofit.LoginSuccessActivity"
             android:exported="false" />
         <activity
